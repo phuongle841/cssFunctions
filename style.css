@@ -33,6 +33,9 @@ main {
   border: #000000 solid 2px;
 }
 /* ============================== */
+*{
+  transition: all ease 1s;
+}
 main {
   background: linear-gradient(
     60deg,
@@ -43,9 +46,10 @@ main {
   );
   color: #fff;
 }
-main p{
+main p {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 64px;
+  color: #cbf784c4;
 }
